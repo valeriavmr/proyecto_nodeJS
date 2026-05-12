@@ -50,7 +50,11 @@ async function deleteProduct(id){
         const response = await fetch(`https://fakestoreapi.com/products/${id}`, {
             method: "DELETE"
         });
-        console.log("Producto de Id " + id + " eliminado");
+
+        const deletedProduct = await response.json();
+
+        console.log("Producto eliminado:", deletedProduct);
+
     } catch (error){
         console.error("Error al eliminar el producto:", error);
     }
