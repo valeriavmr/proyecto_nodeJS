@@ -1,0 +1,13 @@
+{
+  "name": "proyecto_nodejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+   "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Valeria Moreno",
+  "license": "ISC",
+  "description": "",
+  "type":"module"
+}
